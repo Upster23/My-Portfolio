@@ -1,0 +1,341 @@
+/* General styles */
+
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+:root{
+    --gin: #e0eae4;
+}
+
+body {
+    background-color: #f5f5f5;
+    
+}
+
+/*Header*/
+
+header {  
+    height: 100px;
+    padding: 45px 0 0 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #112a53;
+    color: #ffffff;
+}
+
+
+header h1 {
+    display: inline-block;
+    margin-left: 40px;
+    font-size: 48px; 
+    color: #fff;
+    text-shadow:
+      0 0 10px #fff,      
+      0 0 60px #112a53, 
+      0 0 90px #112a53,     
+      0 0 150px #112a53;    
+}
+
+
+header nav {    
+    margin-right: 20px;
+    margin-top: 5px;  
+    height: 35px;
+    float: right;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+header nav ul {
+    list-style-type: none;   
+    height: 35px;
+  
+}
+
+header nav ul a {
+    color: #ffffff;
+    text-decoration: none;
+} 
+
+
+.button {
+    border: none;
+    color: white;   
+    height: 35px;
+    width: 150px;
+    text-align: center;
+    text-decoration: none;    
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 7px 4px 0;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+
+
+  .button1 {
+    background-color: #0e2757e7; 
+    border: 2px solid var(--gin);    
+  }
+  
+
+  .button1:hover {
+    background-color: #112a53;
+    color: white;
+    box-shadow:
+      0 0 10px #fff,      
+      0 0 60px #112a53, 
+      0 0 90px #112a53,    
+      0 0 150px #112a53;
+  } 
+  
+
+/* top backgroung div with background image */
+
+.pad{ 
+    height: 200px;
+    width: 100%;
+    margin-top: 1px;
+    margin-bottom: 20px;
+    background-image: url("../images/PortFolioBackground.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/* Main */
+
+main {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+section {
+    display: inline-block;
+    margin-bottom: 20px;
+    padding: 40px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #ffffff;
+    width: 100%; 
+   
+}
+#section-1 {
+    margin: 0 10px 20px 20px;
+    font-size: 16px;
+    text-align: justify;
+    color: #112a53;
+}
+
+section img {
+    height: 200px;
+    max-width: 270px;
+    float: left;
+}
+
+section div {
+    display: inline-block;
+    position: relative; 
+    width: 33.05%;
+    height: 250px;
+    text-align: justify;
+    
+}
+section div h2 {
+    text-align: center;
+    margin: 0 0 0 0;
+}
+
+section div p {
+    margin: 0 10px 10px 10px;
+    font-size: 16px;
+    text-align: center;
+    color: #112a53;
+}
+
+section div img{
+    height: 150px;
+    width: 100%;
+    margin: 1px 20px 0 55px;
+   
+    
+}
+
+main h2 { 
+    text-align: left;
+    padding-bottom: 15px;
+    color: #112a53;
+}
+
+
+main ul {
+    position: relative;
+    display: inline-block;
+    text-align: left;
+    width: 70%;  
+}
+
+main ul a {
+    color: #ffffff;
+    text-decoration: none;
+} 
+
+
+
+main ul li{
+    list-style-type: none;
+    border: .5px solid var(--gin);    
+    height: 35px; 
+    margin: 5px 5px 5px 5px;
+    padding: 7px;    
+    background-color: #26406ee7;   
+    text-align: left;
+ 
+}
+
+
+main ul li:hover {
+    background-color: #112a53;
+    color: white;
+    color: black;
+    box-shadow:
+      0 0 20px #fff,      
+      0 0 90px #112a53, 
+      0 0 120px #112a53,         
+  } 
+
+/* Section floats */
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+/* Aside element */
+
+.aside-about-me {
+    margin-right: 20px;
+    margin-left: 20px;
+    padding: 20px;    
+    clear: both;
+    float: left;
+    width: 20%;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #ffffff;
+}
+
+.aside-my-projects {
+    margin: 0px 20px 0 20px; 
+    padding: 20px;
+    clear: both;
+    float: left;
+    position: absolute;
+    top: 641px;
+    width: 20%;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #ffffff;
+   
+}
+
+.aside-my-skills {
+    margin: 0px 20px 0 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+    clear: both;
+    float: left;
+    position: absolute;
+    top: 961px;
+    width: 20%;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #ffffff;
+}
+
+aside div {
+    margin-bottom: 32px;
+    color: #112a53;
+}
+aside h2 {
+    text-align: center;
+}
+
+aside div img {
+    display: block;
+    margin: 10px auto;
+    max-width: 250px;
+    height: 220px;
+
+}
+
+/* Footer */
+
+footer {
+    display: inline-block;
+    width: 100%;
+    height: 155px;
+    padding: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #ffffff;
+}
+
+footer div {
+    display: inline-block;
+    height: 150px;
+    width: 33.33%;
+    padding: 10px; 
+    text-align: center;
+}
+
+#foot-2 {
+    position: absolute;
+    left: 33.33%;
+    padding-top: 55px;
+}
+#foot-3 {
+    position: absolute;
+    left: 66.66%;
+}
+
+footer ul {
+    position: relative;
+    display: inline-block;
+    margin-top: 5px;
+    text-align: left;
+    width: 70%;  
+    color: #112a53;
+}
+
+footer ul a{
+    text-decoration: none;
+  
+}
+
+#footer-h2 {
+    font-size: 23px;
+    text-align: left;
+    margin: 0 0 10px 77px;
+    color: #112a53;
+}
+footer ul li{
+    list-style-type: none;   
+    height: 25px; 
+    text-align: left;
+}
+
+#footer-anchor {
+    color: #112a53;
+}
+#footer-p {
+    color: #112a53;
+}
+
+#footer-h2 {
+    font-size: 23px;
+    text-align: left;
+    margin: 0 0 10px 77px;
+    color: #112a53;
+}
