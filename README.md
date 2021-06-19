@@ -12,4 +12,5 @@ This project is a starting point to show case the skills I have acquired in the 
 This repo is a work in progress and will be updated and fine tuned as the class progressess with additional styling and functionality.
 
 ## Page Screenshot
+![My Portfolio Page Screenshot](https://user-images.githubusercontent.com/79011370/122648037-ce65ba80-d159-11eb-8ca5-aa300454dfa4.JPG)
 
